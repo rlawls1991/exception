@@ -1,12 +1,14 @@
 package com.exception.controllerAdvice.error;
 
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import org.springframework.validation.Errors;
 
 @Getter
-@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class ErrorsResource {
 
     private String message;
