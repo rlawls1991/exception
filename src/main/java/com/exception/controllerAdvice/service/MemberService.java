@@ -16,5 +16,5 @@ public interface MemberService {
      * @param memberDto
      * @return
      */
-    MemberDto getMember(MemberDto memberDto);
+    MemberDto updateMember(MemberDto memberDto);
 }
